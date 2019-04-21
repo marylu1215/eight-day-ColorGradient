@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE7ED16226C541400BF9BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7ED15226C541400BF9BC0 /* AppDelegate.swift */; };
+		FAE7ED18226C541400BF9BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7ED17226C541400BF9BC0 /* ViewController.swift */; };
+		FAE7ED1B226C541400BF9BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE7ED19226C541400BF9BC0 /* Main.storyboard */; };
+		FAE7ED1D226C541400BF9BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE7ED1C226C541400BF9BC0 /* Assets.xcassets */; };
+		FAE7ED20226C541400BF9BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE7ED1E226C541400BF9BC0 /* LaunchScreen.storyboard */; };
+		FAE7ED2B226C541400BF9BC0 /* eight_day_ColorGradientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7ED2A226C541400BF9BC0 /* eight_day_ColorGradientTests.swift */; };
+		FAE7ED36226C541400BF9BC0 /* eight_day_ColorGradientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7ED35226C541400BF9BC0 /* eight_day_ColorGradientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE7ED27226C541400BF9BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE7ED0A226C541300BF9BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE7ED11226C541400BF9BC0;
+			remoteInfo = "eight-day-ColorGradient";
+		};
+		FAE7ED32226C541400BF9BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE7ED0A226C541300BF9BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE7ED11226C541400BF9BC0;
+			remoteInfo = "eight-day-ColorGradient";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE7ED12226C541400BF9BC0 /* eight-day-ColorGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eight-day-ColorGradient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE7ED15226C541400BF9BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAE7ED17226C541400BF9BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAE7ED1A226C541400BF9BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE7ED1C226C541400BF9BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE7ED1F226C541400BF9BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE7ED21226C541400BF9BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE7ED26226C541400BF9BC0 /* eight-day-ColorGradientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eight-day-ColorGradientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE7ED2A226C541400BF9BC0 /* eight_day_ColorGradientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eight_day_ColorGradientTests.swift; sourceTree = "<group>"; };
+		FAE7ED2C226C541400BF9BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE7ED31226C541400BF9BC0 /* eight-day-ColorGradientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eight-day-ColorGradientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE7ED35226C541400BF9BC0 /* eight_day_ColorGradientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eight_day_ColorGradientUITests.swift; sourceTree = "<group>"; };
+		FAE7ED37226C541400BF9BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE7ED0F226C541400BF9BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7ED23226C541400BF9BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7ED2E226C541400BF9BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE7ED09226C541300BF9BC0 = {
+			isa = PBXGroup;
+			children = (
+				FAE7ED14226C541400BF9BC0 /* eight-day-ColorGradient */,
+				FAE7ED29226C541400BF9BC0 /* eight-day-ColorGradientTests */,
+				FAE7ED34226C541400BF9BC0 /* eight-day-ColorGradientUITests */,
+				FAE7ED13226C541400BF9BC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE7ED13226C541400BF9BC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7ED12226C541400BF9BC0 /* eight-day-ColorGradient.app */,
+				FAE7ED26226C541400BF9BC0 /* eight-day-ColorGradientTests.xctest */,
+				FAE7ED31226C541400BF9BC0 /* eight-day-ColorGradientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE7ED14226C541400BF9BC0 /* eight-day-ColorGradient */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7ED15226C541400BF9BC0 /* AppDelegate.swift */,
+				FAE7ED17226C541400BF9BC0 /* ViewController.swift */,
+				FAE7ED19226C541400BF9BC0 /* Main.storyboard */,
+				FAE7ED1C226C541400BF9BC0 /* Assets.xcassets */,
+				FAE7ED1E226C541400BF9BC0 /* LaunchScreen.storyboard */,
+				FAE7ED21226C541400BF9BC0 /* Info.plist */,
+			);
+			path = "eight-day-ColorGradient";
+			sourceTree = "<group>";
+		};
+		FAE7ED29226C541400BF9BC0 /* eight-day-ColorGradientTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7ED2A226C541400BF9BC0 /* eight_day_ColorGradientTests.swift */,
+				FAE7ED2C226C541400BF9BC0 /* Info.plist */,
+			);
+			path = "eight-day-ColorGradientTests";
+			sourceTree = "<group>";
+		};
+		FAE7ED34226C541400BF9BC0 /* eight-day-ColorGradientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7ED35226C541400BF9BC0 /* eight_day_ColorGradientUITests.swift */,
+				FAE7ED37226C541400BF9BC0 /* Info.plist */,
+			);
+			path = "eight-day-ColorGradientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE7ED11226C541400BF9BC0 /* eight-day-ColorGradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE7ED3A226C541400BF9BC0 /* Build configuration list for PBXNativeTarget "eight-day-ColorGradient" */;
+			buildPhases = (
+				FAE7ED0E226C541400BF9BC0 /* Sources */,
+				FAE7ED0F226C541400BF9BC0 /* Frameworks */,
+				FAE7ED10226C541400BF9BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eight-day-ColorGradient";
+			productName = "eight-day-ColorGradient";
+			productReference = FAE7ED12226C541400BF9BC0 /* eight-day-ColorGradient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE7ED25226C541400BF9BC0 /* eight-day-ColorGradientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE7ED3D226C541400BF9BC0 /* Build configuration list for PBXNativeTarget "eight-day-ColorGradientTests" */;
+			buildPhases = (
+				FAE7ED22226C541400BF9BC0 /* Sources */,
+				FAE7ED23226C541400BF9BC0 /* Frameworks */,
+				FAE7ED24226C541400BF9BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE7ED28226C541400BF9BC0 /* PBXTargetDependency */,
+			);
+			name = "eight-day-ColorGradientTests";
+			productName = "eight-day-ColorGradientTests";
+			productReference = FAE7ED26226C541400BF9BC0 /* eight-day-ColorGradientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAE7ED30226C541400BF9BC0 /* eight-day-ColorGradientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE7ED40226C541400BF9BC0 /* Build configuration list for PBXNativeTarget "eight-day-ColorGradientUITests" */;
+			buildPhases = (
+				FAE7ED2D226C541400BF9BC0 /* Sources */,
+				FAE7ED2E226C541400BF9BC0 /* Frameworks */,
+				FAE7ED2F226C541400BF9BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE7ED33226C541400BF9BC0 /* PBXTargetDependency */,
+			);
+			name = "eight-day-ColorGradientUITests";
+			productName = "eight-day-ColorGradientUITests";
+			productReference = FAE7ED31226C541400BF9BC0 /* eight-day-ColorGradientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE7ED0A226C541300BF9BC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MacBookPro;
+				TargetAttributes = {
+					FAE7ED11226C541400BF9BC0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FAE7ED25226C541400BF9BC0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAE7ED11226C541400BF9BC0;
+					};
+					FAE7ED30226C541400BF9BC0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAE7ED11226C541400BF9BC0;
+					};
+				};
+			};
+			buildConfigurationList = FAE7ED0D226C541300BF9BC0 /* Build configuration list for PBXProject "eight-day-ColorGradient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE7ED09226C541300BF9BC0;
+			productRefGroup = FAE7ED13226C541400BF9BC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE7ED11226C541400BF9BC0 /* eight-day-ColorGradient */,
+				FAE7ED25226C541400BF9BC0 /* eight-day-ColorGradientTests */,
+				FAE7ED30226C541400BF9BC0 /* eight-day-ColorGradientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE7ED10226C541400BF9BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7ED20226C541400BF9BC0 /* LaunchScreen.storyboard in Resources */,
+				FAE7ED1D226C541400BF9BC0 /* Assets.xcassets in Resources */,
+				FAE7ED1B226C541400BF9BC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7ED24226C541400BF9BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7ED2F226C541400BF9BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE7ED0E226C541400BF9BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7ED18226C541400BF9BC0 /* ViewController.swift in Sources */,
+				FAE7ED16226C541400BF9BC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7ED22226C541400BF9BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7ED2B226C541400BF9BC0 /* eight_day_ColorGradientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7ED2D226C541400BF9BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7ED36226C541400BF9BC0 /* eight_day_ColorGradientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE7ED28226C541400BF9BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE7ED11226C541400BF9BC0 /* eight-day-ColorGradient */;
+			targetProxy = FAE7ED27226C541400BF9BC0 /* PBXContainerItemProxy */;
+		};
+		FAE7ED33226C541400BF9BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE7ED11226C541400BF9BC0 /* eight-day-ColorGradient */;
+			targetProxy = FAE7ED32226C541400BF9BC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE7ED19226C541400BF9BC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE7ED1A226C541400BF9BC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE7ED1E226C541400BF9BC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE7ED1F226C541400BF9BC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE7ED38226C541400BF9BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE7ED39226C541400BF9BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE7ED3B226C541400BF9BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "eight-day-ColorGradient/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.eight-day-ColorGradient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE7ED3C226C541400BF9BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "eight-day-ColorGradient/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.eight-day-ColorGradient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAE7ED3E226C541400BF9BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "eight-day-ColorGradientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.eight-day-ColorGradientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eight-day-ColorGradient.app/eight-day-ColorGradient";
+			};
+			name = Debug;
+		};
+		FAE7ED3F226C541400BF9BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "eight-day-ColorGradientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.eight-day-ColorGradientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eight-day-ColorGradient.app/eight-day-ColorGradient";
+			};
+			name = Release;
+		};
+		FAE7ED41226C541400BF9BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "eight-day-ColorGradientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.eight-day-ColorGradientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eight-day-ColorGradient";
+			};
+			name = Debug;
+		};
+		FAE7ED42226C541400BF9BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "eight-day-ColorGradientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.eight-day-ColorGradientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eight-day-ColorGradient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE7ED0D226C541300BF9BC0 /* Build configuration list for PBXProject "eight-day-ColorGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7ED38226C541400BF9BC0 /* Debug */,
+				FAE7ED39226C541400BF9BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE7ED3A226C541400BF9BC0 /* Build configuration list for PBXNativeTarget "eight-day-ColorGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7ED3B226C541400BF9BC0 /* Debug */,
+				FAE7ED3C226C541400BF9BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE7ED3D226C541400BF9BC0 /* Build configuration list for PBXNativeTarget "eight-day-ColorGradientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7ED3E226C541400BF9BC0 /* Debug */,
+				FAE7ED3F226C541400BF9BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE7ED40226C541400BF9BC0 /* Build configuration list for PBXNativeTarget "eight-day-ColorGradientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE7ED41226C541400BF9BC0 /* Debug */,
+				FAE7ED42226C541400BF9BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE7ED0A226C541300BF9BC0 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_eight_day_ColorGradient {
+  umbrella header "Pods-eight-day-ColorGradient-umbrella.h"
+
+  export *
+  module * { export * }
+}
